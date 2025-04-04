@@ -1,0 +1,3 @@
+# Example Python requirements
+requests
+jinja2  
