@@ -1,0 +1,13 @@
+version: 1
+dependencies:
+  base_image: registry.redhat.io/ansible-automation-platform-25/ee-minimal-rhel9:latest
+
+  # Install Python dependencies from requirements.txt
+  python: requirements.txt
+
+  # Install system-level dependencies
+  # If you have any, uncomment the line below and create bindep.txt
+  # system: bindep.txt
+
+  # Install Ansible collections from requirements.yml
+  galaxy: requirements.yml
